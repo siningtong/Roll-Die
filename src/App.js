@@ -4,7 +4,11 @@ import "./App.css";
 
 class App extends Component {
   render() {
-    return <RollDice />;
+    return (
+      <div className="App">
+        <RollDice />
+      </div>
+    );
   }
 }
 
